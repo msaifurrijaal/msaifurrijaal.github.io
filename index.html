@@ -1,252 +1,434 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="dist/output.css" rel="stylesheet">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
     <title>Saifurrijaal</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar Start -->
-    <header class="bg-transparent absolute top-o left-0 w-full flex items-center z-15">
-        <div class="container">
-            <div class="flex items-center justify-between relative">
-                <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-6">Saifurrijaal</a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4
-                    lg:shadow-none lg:rounded-none top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Me</a>
-                            </li>
-                            <li class="group">
-                                <a href="#project" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">My Project</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+    <header
+      class="bg-transparent absolute top-o left-0 w-full flex items-center z-15"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >Saifurrijaal</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 lg:shadow-none lg:rounded-none top-full lg:block lg:static lg:bg-transparent lg:max-w-full"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >About Me</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#project"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >My Project</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-
+      </div>
     </header>
 
     <!-- Navbar End -->
 
     <!-- Hero Start -->
     <section id="home" class="pt-48 pb-48">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-3xl text-primary font-semibold mb-1">Hello,</h1>
-                    <h1 class="text-4xl text-dark font-semibold mb-1">I'M Muchammad Saifurrijaal</h1>
-                    <p class="font-medium text-slate-400 mb-5 leading-relaxed">I'm a third year student at University of Brawijaya, majoring in Information Technology. Mobile Apps Enthusiast</p>
-                    <a href="#contact" class="text-base font-semibold bg-primary text-white py-3 px-8 
-                    rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 
-                    ease-in-out">Contact Me</a>
-                </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img height="300" width="300" src="dist/img/rijaal.jpg" alt="Saifurrijaal"
-                        class="max-w-full mx-auto rounded-full">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-3xl text-primary font-semibold mb-1">Hello,</h1>
+            <h1 class="text-4xl text-dark font-semibold mb-1">
+              I'M Muchammad Saifurrijaal
+            </h1>
+            <p class="font-medium text-slate-400 mb-5 leading-relaxed">
+              I'm a third year student at University of Brawijaya, majoring in
+              Information Technology. Web and Mobile App Enthusiast
+            </p>
+            <a
+              href="#contact"
+              class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Contact Me</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img
+                height="300"
+                width="300"
+                src="dist/img/rijaal.jpg"
+                alt="Saifurrijaal"
+                class="max-w-full mx-auto rounded-full"
+              />
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Hero End -->
 
-    
     <!-- About Start -->
     <section id="about" class="pt-20 pb-12 bg-slate-100">
-        <div class="container">
-            <div class="w-full px-4 flex justify-center">
-                <div class="mx-auto text-center mb-2">
-                    <h2 class="font-bold text-dark text-4xl mb-4 sm:text-4xl md:text-4xl">About Me</h2>
-                    <p class="font-medium text-md text-scndark max-w-2xl">Information Technology students at Brawijaya University who are energetic and ambitious. Has experience as a freelancer on Mobile App development projects. Experienced in various organizations and committees.
-                    </p>
-                </div>
-            </div>    
+      <div class="container">
+        <div class="w-full px-4 flex justify-center">
+          <div class="mx-auto text-center mb-2">
+            <h2
+              class="font-bold text-dark text-4xl mb-4 sm:text-4xl md:text-4xl"
+            >
+              About Me
+            </h2>
+            <p class="font-medium text-md text-scndark max-w-2xl">
+              Information Technology students at Brawijaya University who are
+              energetic and ambitious. Has experience as a freelancer on
+              software development projects. Experienced in various
+              organizations and committees.
+            </p>
+          </div>
         </div>
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2 xs:hidden">
-                    <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img src="dist/img/about.jpg" alt="Mobile App Development"
-                        class="max-w-full mx-auto scale-75 rounded-3xl">
-                    </div>
-                </div>
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="font-semibold text-xl text-primary mb-2">Any Type Of Query & Discussion</h1>
-                    <p class="text-scndark mb-2">View more detailed information about myself</p>
-                    <p class="text-scndark"><span class="font-semibold text-dark">Name : </span>Muchammad Saifurrijaal</p>
-                    <p class="text-scndark"><span class="font-semibold text-dark">Email : </span>msaifurrijaal@gmail.com</p>
-                    <p class="text-scndark"><span class="font-semibold text-dark">Address : </span>Malang, East Java</p>
-                    <div class="mt-7">
-                        <a href="https://www.linkedin.com/in/muchammad-saifurrijaal/" target="_blank" class="text-base font-semibold bg-white text-dark py-2 px-8 
-                        rounded-full border-2 border-primary hover:shadow-lg hover:opacity-80 transition duration-300 
-                        ease-in-out mx-1">See My Full CV</a>
-                    </div>
-                </div>
+      </div>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2 xs:hidden">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img
+                src="dist/img/about.jpg"
+                alt="Mobile App Development"
+                class="max-w-full mx-auto scale-75 rounded-3xl"
+              />
             </div>
+          </div>
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-semibold text-xl text-primary mb-2">
+              Any Type Of Query & Discussion
+            </h1>
+            <p class="text-scndark mb-2">
+              View more detailed information about myself
+            </p>
+            <p class="text-scndark">
+              <span class="font-semibold text-dark">Name : </span>Muchammad
+              Saifurrijaal
+            </p>
+            <p class="text-scndark">
+              <span class="font-semibold text-dark">Email : </span
+              >msaifurrijaal@gmail.com
+            </p>
+            <p class="text-scndark">
+              <span class="font-semibold text-dark">Address : </span>Malang,
+              East Java
+            </p>
+            <div class="mt-7">
+              <a
+                href="https://www.linkedin.com/in/muchammad-saifurrijaal/"
+                target="_blank"
+                class="text-base font-semibold bg-white text-dark py-2 px-8 rounded-full border-2 border-primary hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mx-1"
+                >See My Full CV</a
+              >
+            </div>
+          </div>
         </div>
-        
+      </div>
     </section>
     <!-- About End -->
-    
-    
+
     <!-- Portfolio Section Start -->
     <section id="project" class="pt-20 pb-12 bg-white">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w xl mx-auto text-center mb-2">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">My Project</h2>
-                    <p class="font-medium text-md text-scndark">Some of the projects I've made, either personally, or with a team.</p>
-                </div>
-            </div>
-            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                <div class="p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden scale-75">
-                        <img src="dist/img/postnatal.png" alt="" width="w-full" class="hover:scale-110 transition-all duration-500 cursor-pointer">
-                    </div>
-                    <h3 class="font-semibold text-xl text-dark mb-3">Post Natal Care App</h3>
-                    <p class="font-medium text-base text-scndark">As a Android developer, developing native Android applications using the Kotlin language, 
-                        <a href="https://play.google.com/store/apps/details?id=com.msaifurrijaal.postnatal" target="_blank" class="text-primary italic">goes to Google Play Store.</a>
-                    </p>
-                </div>
-                <div class=" p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden scale-75">
-                        <img src="dist/img/savefood.png" alt="" width="w-full" class="hover:scale-110 transition-all duration-500 cursor-pointer">
-                    </div>
-                    <h3 class="font-semibold text-xl text-dark mb-3">Savefood App</h3>
-                    <p class="font-medium text-base text-scndark">As a Android developer, developing native Android applications using the Kotlin language.</p>
-                </div>  
-                <div class="p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden scale-75">
-                        <img src="dist/img/pemin.png" alt="" width="w-full" class="hover:scale-110 transition-all duration-500 cursor-pointer">
-                    </div>
-                    <h3 class="font-semibold text-xl text-dark mb-1">Kampenies App</h3>
-                    <p class="font-medium text-base text-scndark">As a Mobile developer, developing applications using Flutter Framework, 
-                        <a href="https://github.com/msaifurrijaal/kampenies-pemin-ta" target="_blank" class="text-primary italic">goes to repository.</a>
-                    </p>
-                </div>
-                <div class="p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden scale-75">
-                        <img src="dist/img/salingjaga.png" alt="" width="w-full" class="hover:scale-110 transition-all duration-500 cursor-pointer">
-                    </div>
-                    <h3 class="font-semibold text-xl text-dark mb-1">Landing Page Website SalingJaga</h3>
-                    <p class="font-medium text-base text-scndark">As a backend developer who manages the database and logic of website pages, 
-                        <a href="https://github.com/msaifurrijaal/saling-jaga-web" target="_blank" class="text-primary italic">goes to repository.</a>
-                    </p>
-                    
-                </div>
-            </div>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w xl mx-auto text-center mb-2">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              My Project
+            </h2>
+            <p class="font-medium text-md text-scndark">
+              Some of the projects I've made, either personally, or with a team.
+            </p>
+          </div>
         </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden scale-75">
+              <img
+                src="dist/img/postnatal.png"
+                alt=""
+                width="w-full"
+                class="hover:scale-110 transition-all duration-500 cursor-pointer"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mb-3">
+              Post Natal Care App
+            </h3>
+            <p class="font-medium text-base text-scndark">
+              As a Android developer, developing native Android applications
+              using the Kotlin language,
+              <a
+                href="https://play.google.com/store/apps/details?id=com.msaifurrijaal.postnatal"
+                target="_blank"
+                class="text-primary italic"
+                >goes to Google Play Store.</a
+              >
+            </p>
+          </div>
+          <div class="p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden scale-75">
+              <img
+                src="dist/img/savefood.png"
+                alt=""
+                width="w-full"
+                class="hover:scale-110 transition-all duration-500 cursor-pointer"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mb-3">Savefood App</h3>
+            <p class="font-medium text-base text-scndark">
+              As a Android developer, developing native Android applications
+              using the Kotlin language,
+              <a
+                href="https://drive.google.com/drive/folders/19_z7XZqej4QV0joQCz0K6iFBtUevcfV3?usp=sharing"
+                target="_blank"
+                class="text-primary italic"
+              >
+                download apk.</a
+              >
+            </p>
+          </div>
+          <div class="p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden scale-75">
+              <img
+                src="dist/img/pemin.png"
+                alt=""
+                width="w-full"
+                class="hover:scale-110 transition-all duration-500 cursor-pointer"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mb-1">Kampenies App</h3>
+            <p class="font-medium text-base text-scndark">
+              As a Mobile developer, developing applications using Flutter
+              Framework,
+              <a
+                href="https://github.com/msaifurrijaal/kampenies-pemin-ta"
+                target="_blank"
+                class="text-primary italic"
+                >goes to repository.</a
+              >
+            </p>
+          </div>
+          <div class="p-4 md:w-1/2">
+            <div
+              class="rounded-md shadow-md overflow-hidden scale-75 bg-slate-500"
+            >
+              <img
+                src="dist/img/salingjaga.jpeg"
+                alt=""
+                class="hover:scale-110 transition-all duration-500 cursor-pointer"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mb-1">
+              Landing Page Website SalingJaga
+            </h3>
+            <p class="font-medium text-base text-scndark">
+              As a web developer, developing products using laravel and tailwind
+              css,
+              <a
+                href="https://github.com/msaifurrijaal/saling-jaga-web"
+                target="_blank"
+                class="text-primary italic"
+                >goes to repository.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Portfolio Section End -->
-    
+
     <!-- Find Me -->
     <div class="w-full flex justify-center">
-        <div class="mx-auto text-center mb-2 w-full">
-            <div class="bg-[url('../dist/img/find.jpg')] w-full p-20">
-                <h4 class="font-semibold text-lg text-primary mb-2">Social Media</h4>
-                <h2 class="font-bold text-dark text-4xl mb-4">Find Me on Another Platform</h2>
-                <div class="flex justify-center items-center">
-                    <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary">
-                        <img src="dist/img/facebook.png" class="w-full h-full" alt="">
-                    </a>
-                    <a href="https://github.com/msaifurrijaal" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary">
-                        <img src="dist/img/github.png" class="w-full h-full" alt="">
-                    </a>
-                    <a href="https://wa.me/6285232487037" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary">
-                        <img src="dist/img/wa.png" class="w-full h-full" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/msrijaal_/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary">
-                        <img src="dist/img/instagram.png" class="w-full h-full" alt="">
-                    </a>
-                    <a href="https://www.linkedin.com/in/muchammad-saifurrijaal/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary">
-                        <img src="dist/img/linkedin.png" class="w-full h-full" alt="">
-                    </a>
-                    
-                </div>
-            </div>
+      <div class="mx-auto text-center mb-2 w-full">
+        <div class="bg-[url('../dist/img/find.jpg')] w-full p-20">
+          <h4 class="font-semibold text-lg text-primary mb-2">Social Media</h4>
+          <h2 class="font-bold text-dark text-4xl mb-4">
+            Find Me on Another Platform
+          </h2>
+          <div class="flex justify-center items-center">
+            <a
+              href="#"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary"
+            >
+              <img src="dist/img/facebook.png" class="w-full h-full" alt="" />
+            </a>
+            <a
+              href="https://github.com/msaifurrijaal"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary"
+            >
+              <img src="dist/img/github.png" class="w-full h-full" alt="" />
+            </a>
+            <a
+              href="https://wa.me/6285232487037"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary"
+            >
+              <img src="dist/img/wa.png" class="w-full h-full" alt="" />
+            </a>
+            <a
+              href="https://www.instagram.com/msrijaal_/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary"
+            >
+              <img src="dist/img/instagram.png" class="w-full h-full" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muchammad-saifurrijaal/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary"
+            >
+              <img src="dist/img/linkedin.png" class="w-full h-full" alt="" />
+            </a>
+          </div>
         </div>
-    </div>  
+      </div>
+    </div>
     <!-- Find Me End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="pt-20 pb-16">
-        <div class="container">
-          <div class="w-full px-4">
-            <div class="mx-auto mb-16 max-w-xl text-center">
-              <h4 class="mb-2 text-lg font-semibold text-primary">Let's Keep in Touch</h4>
-              <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Contact Me</h2>
-              <p class="text-md font-medium text-scndark md:text-lg">Send the message you want to convey to me</p>
-              <br>
-              <a href="https://wa.me/6285232487037" target="_blank" class="text-base font-semibold bg-primary text-white py-3 px-8 
-              rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mx-1">Say, Hello!</a>
-            </div>
-          </div>
-  
-          
-        </div>
-      </section>
-      <!-- Contact Section End -->
-
-      <!-- Footer Start -->
-    <footer class="bg-dark pt-10 pb-7">
-        <div class="container">
-          <div class="flex flex-wrap">
-            <div class="mb-5 w-full px-4 font-medium text-slate-300 md:w-1/2">
-              <h2 class="mb-5 text-4xl font-bold text-white">Saifurrijaal</h2>
-              <h3 class="mb-2 text-2xl font-bold">Contact Me</h3>
-              <p>msaifurrijaal@gmail.com</p>
-              <p>Malang, East Java</p>
-            </div>
-            <div class="mb-5 w-full px-4 md:w-1/2">
-              <h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
-              <ul class="text-slate-300">
-                <li>
-                  <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>
-                </li>
-                <li>
-                  <a href="#about" class="mb-3 inline-block text-base hover:text-primary">About Me</a>
-                </li>
-                <li>
-                  <a href="#project" class="mb-3 inline-block text-base hover:text-primary">My Project</a>
-                </li>
-                <li>
-                  <a href="#contact" class="mb-3 inline-block text-base hover:text-primary">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="w-full border-t border-slate-700 pt-10">
-            <p class="text-center text-xs font-medium text-slate-500">
-              Developed<span class="text-pink-500"></span> by <a href="https://www.instagram.com/msrijaal_/" target="_blank" class="font-bold text-primary">Muchammad Saifurrijaal</a></a>.
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary">
+              Let's Keep in Touch
+            </h4>
+            <h2
+              class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl"
+            >
+              Contact Me
+            </h2>
+            <p class="text-md font-medium text-scndark md:text-lg">
+              Send the message you want to convey to me
             </p>
+            <br />
+            <a
+              href="https://wa.me/6285232487037"
+              target="_blank"
+              class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mx-1"
+              >Say, Hello!</a
+            >
           </div>
         </div>
-      </footer>
-      <!-- Footer End -->
-    
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-10 pb-7">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="mb-5 w-full px-4 font-medium text-slate-300 md:w-1/2">
+            <h2 class="mb-5 text-4xl font-bold text-white">Saifurrijaal</h2>
+            <h3 class="mb-2 text-2xl font-bold">Contact Me</h3>
+            <p>msaifurrijaal@gmail.com</p>
+            <p>Malang, East Java</p>
+          </div>
+          <div class="mb-5 w-full px-4 md:w-1/2">
+            <h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="mb-3 inline-block text-base hover:text-primary"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="mb-3 inline-block text-base hover:text-primary"
+                  >About Me</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#project"
+                  class="mb-3 inline-block text-base hover:text-primary"
+                  >My Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="mb-3 inline-block text-base hover:text-primary"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full border-t border-slate-700 pt-10">
+          <p class="text-center text-xs font-medium text-slate-500">
+            Developed<span class="text-pink-500"></span> by
+            <a
+              href="https://www.instagram.com/msrijaal_/"
+              target="_blank"
+              class="font-bold text-primary"
+              >Muchammad Saifurrijaal</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
     <script src="dist/js/script.js"></script>
-
-</body>
+  </body>
 </html>
